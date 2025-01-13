@@ -55,7 +55,26 @@ main h1{
 }
 
 p{
-    color: red;
+    color: darkgoldenrod;
+}
+
+section{
+    color: black;
+    background-color: firebrick;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+section div img{
+    width: 80%;
 }
 
 footer{

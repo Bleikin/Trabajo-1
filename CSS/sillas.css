@@ -43,14 +43,38 @@ header nav ul li a{
     display: flex;
 }
 
+main{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 main h1{
-    color: darkmagenta;
+    color: fuchsia;
     background-color: black;
     text-align: center;
 }
 
 p{
-    color: darkmagenta;
+    color: fuchsia;
+}
+
+section{
+    color: black;
+    background-color: firebrick;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+section div img{
+    width: 80%;
 }
 
 
