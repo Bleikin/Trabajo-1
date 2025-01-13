@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: firebrick;
+}
+
 header{
     background-color: #2b2b2b;
     display: flex;
@@ -27,9 +31,16 @@ header nav ul{
     gap: 30px;
 }
 
+header nav ul li{
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
 header nav ul li a{
     color: white;
     text-decoration: none;
+    display: flex;
 }
 
 main h1{
@@ -45,5 +56,9 @@ p{
 
 footer{
     text-align: center;
-    color: darkred;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: turquoise;
 }
