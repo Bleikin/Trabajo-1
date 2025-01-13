@@ -1,0 +1,76 @@
+/* linea de comentario */
+
+/*selector{
+  propiedad: valor;
+  }
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+
+header img{
+    display: flex;
+    width: 30%
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div h1{
+    text-align: center;
+}
+
+main div h2{
+    background-color: black;
+    color: darkgoldenrod;
+    margin-bottom: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px gray;
+}
+
+main .textos{
+    text-align: center;
+}
+
+main .textos .boton{
+    color: orangered;
+}
+
+main div img{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    flex-wrap: wrap;
+}

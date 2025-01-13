@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+
+header img{
+    display: flex;
+    width: 30%;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+main h1{ 
+    color: greenyellow; 
+    background-color: black;
+    text-align: center;
+}
+
+
+p{
+    color: forestgreen;
+}
+
+footer p{
+    text-align: center;
+    color: darkred;
+
+}
