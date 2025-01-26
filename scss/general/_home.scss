@@ -1,0 +1,7 @@
+@import "../utilidades/mixin";
+
+/* estilos de header */
+
+header{
+    @include flex;
+}

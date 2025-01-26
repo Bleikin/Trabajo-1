@@ -1,3 +1,5 @@
+@import "../utilidades/variables";
+
 /* reset */
 
 *{
@@ -7,7 +9,8 @@
 }
 
 
+
 body{
     background-color: $color-principal;
-}
 
+}
