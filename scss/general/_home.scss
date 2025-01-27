@@ -1,5 +1,5 @@
 .black-bg{
-    background-color: #2b2b2b;
+    background-color: #1b1616;
 }
 
 .black-bg div .colorhome-bg{
@@ -68,15 +68,19 @@ main{
     @include main;
     div{
         @include maindivh;
+
+        p{
+            @include maindivp;
+        }
     }
     h1{
-        @include mainh1;
+        @include maindivh1;
     }
     h2{
-        @include mainh2;
+        @include maindivh2;
     }
     h3{
-        @include mainh3;
+        @include maindivh3;
     }
     .textos{
         @include maintextos;
@@ -107,6 +111,10 @@ section{
 
 /* pie de pagina */
 
-footer{
-    @include footer;
+footer p{
+    @include footerp;
+}
+
+footer div p{
+    @include footerdivp;
 }

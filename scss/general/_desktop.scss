@@ -1,0 +1,14 @@
+// include de mixin de grid
+
+@import "../utilidades/mixin";
+
+//* estilos de desktop *//
+
+@media screen and (min-width: 1024px){
+
+    header{
+        justify-content: space-around;
+    }
+
+
+}

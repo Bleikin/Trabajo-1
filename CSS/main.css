@@ -9,8 +9,12 @@ body {
   background-color: firebrick;
 }
 
+main h1 {
+  color: rgb(179, 80, 80);
+}
+
 .black-bg {
-  background-color: #2b2b2b;
+  background-color: #1b1616;
 }
 
 .black-bg div .colorhome-bg {
@@ -39,7 +43,7 @@ body {
 
 /* estilos de header */
 header {
-  background-color: #2b2b2b;
+  background-color: #1b1616;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -79,20 +83,20 @@ main {
 main div {
   color: rgb(214, 182, 0);
   display: inline-block;
-  padding: 10px;
+}
+main div p {
+  color: black;
 }
 main h1 {
-  align-items: center;
-  color: floralwhite;
-  background-color: black;
+  text-align: center;
+  color: rgb(218, 97, 27);
+  background-color: #0c0b0b;
 }
 main h2 {
-  align-items: center;
-  color: floralwhite;
+  color: #1b1616;
 }
 main h3 {
-  align-items: center;
-  color: floralwhite;
+  color: #1b1616;
 }
 main .textos {
   text-align: center;
@@ -125,10 +129,27 @@ section div img {
 }
 
 /* pie de pagina */
-footer {
+footer p {
+  text-align: center;
+  flex-wrap: wrap;
+  color: rgb(233, 203, 70);
+}
+
+footer div p {
   text-align: center;
   flex-wrap: wrap;
   color: turquoise;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

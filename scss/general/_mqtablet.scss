@@ -1,0 +1,14 @@
+// include de mixin de grid
+
+@import "../utilidades/mixin";
+
+//* estilos de tablet *//
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    header{
+        justify-content: space-around;
+    }
+
+
+}
