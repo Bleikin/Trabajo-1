@@ -13,3 +13,101 @@
     color: goldenrod;
 
 }
+
+@mixin navul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+@mixin navulli{
+    text-decoration: none;
+    display: flex;
+
+}
+
+@mixin navullia{
+    color: goldenrod;
+    text-decoration: none;
+    display: flex;
+}
+
+@mixin img{
+    display: flex;
+    width: 35%;
+}
+
+@mixin h1{
+    color: firebrick;
+}
+
+@mixin main{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+@mixin maindivh{
+    color: rgb(214, 182, 0);
+    display: inline-block;
+    padding: 10px;
+}
+
+
+@mixin mainh1{
+    align-items: center;
+    color: floralwhite;
+    background-color: black;
+}
+
+@mixin mainh2{
+    align-items: center;
+    color: floralwhite;
+}
+
+@mixin mainh3{
+    align-items: center;
+    color: floralwhite;
+}
+
+@mixin maintextos{
+    text-align: center;
+}
+
+@mixin maintextosboton{
+    color: palegoldenrod;
+}
+
+@mixin maindivp{
+    color: black;
+}
+
+@mixin mainp{
+    color: rgb(27, 30, 39);
+    padding: 10px;
+}
+
+ @mixin section{
+    color: black;
+    background-color: firebrick;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ @mixin sectiondiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+@mixin sectiondivimg{
+    width: 80%;
+}
+
+@mixin footer{
+    text-align: center;
+    flex-wrap: wrap;
+    color: turquoise;
+}
