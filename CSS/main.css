@@ -81,11 +81,11 @@ main {
   display: flex;
 }
 main div {
-  color: rgb(214, 182, 0);
+  color: rgb(173, 245, 215);
   display: inline-block;
 }
 main div p {
-  color: black;
+  color: rgb(244, 253, 255);
 }
 main h1 {
   text-align: center;
@@ -93,10 +93,10 @@ main h1 {
   background-color: #0c0b0b;
 }
 main h2 {
-  color: #1b1616;
+  color: rgb(254, 255, 218);
 }
 main h3 {
-  color: #1b1616;
+  color: rgb(254, 255, 218);
 }
 main .textos {
   text-align: center;
@@ -105,7 +105,7 @@ main .textos .boton {
   color: palegoldenrod;
 }
 main p {
-  color: rgb(27, 30, 39);
+  color: black;
   padding: 10px;
 }
 
@@ -123,6 +123,7 @@ section div {
   flex-direction: column;
   align-items: center;
   margin-left: 10px;
+  padding-left: 20px;
 }
 section div img {
   width: 80%;
@@ -132,13 +133,13 @@ section div img {
 footer p {
   text-align: center;
   flex-wrap: wrap;
-  color: rgb(233, 203, 70);
+  color: rgb(254, 255, 218);
 }
 
 footer div p {
   text-align: center;
   flex-wrap: wrap;
-  color: turquoise;
+  color: rgb(224, 182, 126);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

@@ -47,7 +47,7 @@
 }
 
 @mixin maindivh{
-    color: rgb(214, 182, 0);
+    color: rgb(173,245,215);
     display: inline-block;
 }
 
@@ -67,11 +67,11 @@
 }
 
 @mixin maindivh2{
-    color:  #1b1616;
+    color: rgb(254,255,218);
 }
 
 @mixin maindivh3{
-    color:  #1b1616;
+    color: rgb(254,255,218);
 }
 
 @mixin maintextos{
@@ -83,11 +83,11 @@
 }
 
 @mixin maindivp{
-    color: black;
+    color: rgb(244,253,255);
 }
 
 @mixin mainp{
-    color: rgb(27, 30, 39);
+    color: black;
     padding: 10px;
 }
 
@@ -105,20 +105,23 @@
     flex-direction: column;
     align-items: center;
     margin-left: 10px;
+    padding-left: 20px;
 }
+
 
 @mixin sectiondivimg{
     width: 80%;
 }
 
+
 @mixin footerp{
     text-align: center;
     flex-wrap: wrap;
-    color: rgb(233, 203, 70);
+    color: rgb(254,255,218);
 }
 
 @mixin footerdivp{
     text-align: center;
     flex-wrap: wrap;
-    color: turquoise;
+    color: rgb(224, 182, 126);
 }
